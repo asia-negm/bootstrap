@@ -1,0 +1,25 @@
+:root{
+    --accent:#27a9f5;
+}
+section:not(#home){
+    padding: 3.125rem 0;
+}
+.navbar {
+    --bs-navbar-hover-color: var(--accent);
+    --bs-navbar-active-color: var(--accent);
+    --bs-navbar-brand-color:var(--accent);
+    --bs-navbar-brand-hover-color: var(--accent);
+    --bs-navbar-toggler-border-color: var(--accent);
+}
+.alert-primary {
+    --bs-alert-color: var(--bs-primary-text-emphasis);
+    --bs-alert-bg: var(--accent);
+    --bs-alert-border-color: var(--accent);
+}
+.carousel {
+    height: calc(100vh - (56px + 57.8px));
+}
+.carousel  img{
+    object-fit: cover;
+    filter: brightness(.5);
+}
