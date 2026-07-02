@@ -38,3 +38,18 @@ section#home .carousel-indicators [data-bs-target] {
 .carousel-indicators .active{
     background-color: var(--accent);
 }
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg: var(--accent);
+}
+section#services .nav {
+
+    --bs-nav-link-color: black;
+    --bs-nav-link-hover-color: var(--accent);
+    --bs-nav-link-disabled-color: var(--accent);
+}
+.border-accent{
+    --bs-border-opacity:1;
+    border-color: var(--accent) !important;
+    justify-content: center;
+}
